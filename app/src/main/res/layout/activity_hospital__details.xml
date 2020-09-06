@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/h"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Hospital_Details">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/name1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textSize="25dp"
+            android:id="@+id/name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click on the No. below for call:"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/name2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="contact"
+            android:textAlignment="center"
+            android:background="#80ff84"
+            android:textSize="25dp"
+            android:id="@+id/contact"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS:"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/name3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="address"
+            android:textSize="25dp"
+            android:id="@+id/address"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WEBSITE:"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/name4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="website"
+            android:textSize="25dp"
+            android:id="@+id/website"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SYSTEM_OF_MEDICINES:"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/name5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="System_of_medicines"
+            android:textSize="25dp"
+            android:id="@+id/System_of_medicines"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPECIALITIES:"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/name6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="specialities"
+
+            android:textSize="25dp"
+            android:id="@+id/specialities"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CATEGORY:"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/name7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="category"
+            android:textSize="25dp"
+            android:id="@+id/category"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click on the EMAIL_ID below to send mail:"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+
+            android:textSize="25dp"
+            android:id="@+id/name8"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="email_id"
+            android:textSize="25dp"
+            android:background="#F44336"
+            android:id="@+id/email_id"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLICK ON THE BUTTON BELOW TO VIEW DOCTOR'S LIST"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/name9"/>
+
+        <Button
+            android:id="@+id/show_doctors"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffeb3b"
+            android:onClick="go"
+            android:text="show_doctors" />
+    </LinearLayout>
+
+</ScrollView>
